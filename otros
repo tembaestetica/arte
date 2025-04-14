@@ -117,6 +117,19 @@
 			<li class="nav-item">
                         <a class="nav-link"  href="cursosylibros.html" role="tab" aria-controls="pills-profile" aria-selected="false">Cursos y Libros</a>
                </li>
+<div class="tab-content">
+    <div class="tab-pane fade show active" id="pinturas" role="tabpanel" aria-labelledby="pills-home-tab">Contenido de Pinturas</div>
+    <div class="tab-pane fade" id="otros" role="tabpanel" aria-labelledby="pills-profile-tab">Contenido de Otros</div>
+    <div class="tab-pane fade" id="murales" role="tabpanel" aria-labelledby="pills-profile-tab">Contenido de Murales</div>
+    <div class="tab-pane fade" id="ropayaccesorios" role="tabpanel" aria-labelledby="pills-profile-tab">Contenido de Ropa y accesorios</div>
+    <div class="tab-pane fade" id="cursosylibros" role="tabpanel" aria-labelledby="pills-profile-tab">Contenido de Cursos y Libros</div>
+</div>
+
+
+
+
+
+
             </ul>
         </div>
     </div>
