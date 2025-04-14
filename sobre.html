@@ -1,68 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="utf-8">
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="Start your development with FoodHut landing page.">
     <meta name="author" content="Devcrud">
-    <title>ANA ZAW< Free Bootstrap 4.3.x template</title>
-   
+    <title>Temba Estética</title>
+
     <!-- font icons -->
     <link rel="stylesheet" href="vendors/themify-icons/css/themify-icons.css">
-
     <link rel="stylesheet" href="vendors/animate/animate.css">
 
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
     <!-- Bootstrap + FoodHut main styles -->
-	<link rel="stylesheet" href="css/foodhut.css">
+    <link rel="stylesheet" href="css/foodhut.css">
+
+    <style>
+        /* Aumentamos el espacio en la parte superior del encabezado */
+        .header {
+            padding-top: 150px; /* Aumentar según sea necesario */
+            height: 150vh; /* Definir altura para visualizar mejor */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative; /* Para asegurar que overlay funcione bien */
+        }
+
+        .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0, 0, 0, 0.5); /* Fondo oscuro con opacidad */
+            text-align: center; /* Centramos el texto */
+        }
+    </style>
 </head>
 <body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
-    
+
     <!-- Navbar -->
-    <nav class="custom-navbar navbar navbar-expand-lg navbar-dark fixed-top" data-spy="affix" data-offset-top="10">
+    <nav class="custom-navbar navbar navbar-expand-lg navbar-dark fixed-top">
+        <a class="navbar-brand" href="#">
+            <img src="assets/imgs/logo.svg" class="brand-img" alt="">
+            <span class="brand-txt">ANA ZAW</span>
+        </a>
+        
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
+        
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav">
+            <ul class="navbar-nav mr-auto">
                 <li class="nav-item">
                     <a class="nav-link" href="index.html">Inicio</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="sobre.html">ANA ZAW</a>
+                    <a class="nav-link" href="sobre.html">Sobre Ana Zaw</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="Galeria.html">Galeria</a>
                 </li>
-               
-            </ul>
-            <a class="navbar-brand m-auto" href="#">
-                <img src="assets/imgs/logo.svg" class="brand-img" alt="">
-                <span class="brand-txt">ANA ZAW</span>
-            </a>
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link" href="SERVICIOS.html">Servicios<span class="sr-only">(current)</span></a>
+                  <li class="nav-item">
+                    <a class="nav-link" href="testimonios.html">Blog Creativo</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="testimonios.html">Clientes</a>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="servicesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Creaciones
+                    </a>
+                    <!-- Menú desplegable -->
+                    	    <div class="dropdown-menu" aria-labelledby="servicesDropdown">
+                        <a class="dropdown-item" href="pinturas.html">PINTURAS</a>
+                        <a class="dropdown-item" href="dibujos.html">DIBUJOS</a>
+                        <a class="dropdown-item" href="murales.html">MURALES</a>
+                        <a class="dropdown-item" href="ropayaccesorios.html">ROPA Y ACCESORIOS</a>
+                        <a class="dropdown-item" href="cursoylibros.html">CURSOS y LIBROS </a>
+
+                    </div>
+                </li>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="contactar.html">Contacta</a>
                 </li>
-                <li class="nav-item">
-                   
-                   <a href="SERVICIOS.html" class="btn btn-primary ml-xl-4">Creaciones</a>
-			    <ul class="submenu">
-	    <li><a href="pinturas.html">PINTURAS</a>
-            <li><a href="dibujos.html">DIBUJOS</a></li>
-            <li><a  href="murales.html">MURALES</a></li>
-            <li><a href="ropayaccesorios.html">ROPA Y ACCESORIOS</a></li>
-            <li><a href="cursoylibros.html">CURSOS y LIBROS </a>></li>
-           
-	    </li></ul>	    
-
-		    
             </ul>
+            <a href="creaciones.html" class="btn btn-primary ml-xl-4">Añádelos a tu Colección</a>
         </div>
     </nav>
 
