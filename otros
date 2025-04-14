@@ -78,10 +78,10 @@
                         <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="pinturas.html" role="tab" aria-controls="pills-home" aria-selected="false">Pintura</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="murales.html" role="tab" aria-controls="pills-profile" aria-selected="true">Murales</a>
+                        <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="murales.html" role="tab" aria-controls="pills-profile" aria-selected="false">Murales</a>
                     </li>
 			<li class="nav-item">
-                        <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="otros.html" role="tab" aria-controls="pills-profile" aria-selected="false">Otros</a>
+                        <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="otros.html" role="tab" aria-controls="pills-profile" aria-selected="true">Otros</a>
                     </li>
 			<li class="nav-item">
                         <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="ropayaccesorios.html" role="tab" aria-controls="pills-profile" aria-selected="false">Ropa y Accesorios</a>
